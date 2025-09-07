@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Huy Nghiem NLP"
+title                    : "Huy Nghiem Website"
 title_separator          : "-"
 name                     : &name "Huy Nghiem"
 description              : &description "personal description"
@@ -26,8 +26,8 @@ author:
   name             : "Huy Nghiem"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in AI, NLP and Computational Sociology."
-  location         : "Maryland, USA"
-  employer         : "University of Maryland, College Park"
+  location         : "College Park, MD"
+  employer         : "University of Maryland"
   uri              : # URL
   email            : "nghiemh@umd.edu"
 
