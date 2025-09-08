@@ -132,3 +132,39 @@ a.paper-card,
 a.paper-card:hover {
     text-decoration: none !important;
 }
+
+/* ========================================= */
+/*  DARK MODE STYLES FOR PAPER CARDS         */
+/* ========================================= */
+
+/* 
+  Find your theme's dark mode class by inspecting the <html>
+  or <body> tag and replace ".dark" if needed.
+  Common examples are: ".dark", ".dark-theme", or [data-theme="dark"]
+*/
+
+.dark a.paper-card {
+    background: #2d3748;
+    /* A dark slate background for the card */
+    border-color: #4a5568;
+    /* A slightly lighter border */
+}
+
+/* Make the title text white and prominent */
+.dark .pc-title {
+    color: #edf2f7;
+}
+
+/* Make the other text a readable light gray */
+.dark .pc-venue,
+.dark .pc-authors,
+.dark .pc-excerpt {
+    color: #a0aec0;
+}
+
+/* Style the tags for dark mode */
+.dark .pc-tag {
+    background: #4a5568;
+    border-color: #718096;
+    color: #e2e8f0;
+}
