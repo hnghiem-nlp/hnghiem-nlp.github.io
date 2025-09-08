@@ -18,7 +18,7 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 <ul class="news-compact">
   <li>
     <span class="news-date">09/2025</span>
-    <span class="news-text">🚀 Camera-ready for <em>Rich Dad, Poor Lad</em> submitted to **EMNLP 2025**.</span>
+    <span class="news-text">🚀 Camera-ready for <em>Rich Dad, Poor Lad</em> submitted to <b>EMNLP 2025</b>.</span>
   </li>
   <li>
     <span class="news-date">08/2025</span>
