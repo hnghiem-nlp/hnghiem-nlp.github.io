@@ -9,7 +9,7 @@ My current work studies how large language models justify decisions in **college
 
 I collaborate across **NLP + HCI + causal inference**, building pipelines for data generation, alignment (DPO/KTO/GRPO), and explanation analysis at scale.
 
-## Selected Publications
+<!-- ## Selected Publications -->
 
 <!-- {% include featured_pubs.html %}
 
