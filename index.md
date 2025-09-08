@@ -11,7 +11,7 @@ I collaborate across **NLP + HCI + causal inference**, building pipelines for da
 
 ## Selected Publications
 
-{% include featured_pubs.html %}
+<!-- {% include featured_pubs.html %}
 
 ## News
 
@@ -21,4 +21,4 @@ I collaborate across **NLP + HCI + causal inference**, building pipelines for da
 {%- endfor -%}
 </ul>
 
-<p><a href="{{ '/year-archive/' | relative_url }}">All updates →</a></p>
+<p><a href="{{ '/year-archive/' | relative_url }}">All updates →</a></p> -->
