@@ -1,6 +1,6 @@
 {%- assign featured = site.publications
 | where_exp: "p", "p.selected == true"
-| sort: "year" | reverse -%}
+| sort: "order" -%}
 
 <div class="paper-grid">
     {%- for pub in featured limit:4 -%}

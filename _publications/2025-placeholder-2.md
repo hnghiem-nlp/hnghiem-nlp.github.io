@@ -1,10 +1,10 @@
 ---
-title: "Paper Title Placeholder B"
-authors: "First Author, Huy Nghiem, Third Author"
-venue: "EMNLP"
+title: "Balancing Safety and Helpfulness in Healthcare AI Assistants through Iterative Preference Alignment"
+authors: "Huy Nghiem, Swetasudha Panda, Devashish Khatwani, Huy V. Nguyen, Krishnaram Kenthapadi, Hal Daumé III"
+venue: "Preprint"
 year: 2025
 paperurl: "https://arxiv.org/abs/0000.00000"
 image: "/assets/img/papers/placeholder-2.jpg"
-excerpt: "Short abstract sentence to preview the idea."
+excerpt: "Simple and modular iterative frameworks to improve safety of healthcare AI assistants post-deployment via preference optimization"
 selected: true
 ---

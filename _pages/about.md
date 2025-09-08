@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming third-year PhD student in Computer Science at the University of Maryland, College Park under the advise of Professor [Hal Daumé III](https://users.umiacs.umd.edu/~hal3/). My research focuses on **Safety, Robustness and Trustworthiness in AI** , with a focus on application of NLP systems to solve social problems. My recent and upcoming works investigate and enhancing the robustness of Large Language Models (LLMs) in tasks that require complex reasoning. Before UMD, I earned my Master's degree at the University of Southern California and conducted research in social media under [Dr. Fred Morstatter](https://fredzilla.github.io/) and [Dr. Emilio Ferrara](http://www.emilio.ferrara.name/). 
+I am an incoming third-year PhD student in Computer Science at the University of Maryland, College Park under the advise of Professor [Hal Daumé III](https://users.umiacs.umd.edu/~hal3/). My research focuses on **Safety, Robustness and Trustworthiness in AI** , with a focus on application of NLP systems to solve social problems. My recent and upcoming works investigate and enhancing the robustness of Large Language Models (LLMs) in tasks that require complex reasoning. Before UMD, I earned my Master's degree at the University of Southern California and conducted research in social media under [Dr. Fred Morstatter](https://fredzilla.github.io/) and [Dr. Emilio Ferrara](http://www.emilio.ferrara.name/). I also worked  at the [Children's Data Network](https://datanetwork.org/) as a Data Scientist, investigating and enhancing public policy in the child welfare system.
 
 In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quaint towns ⛰️ and electrifying cities 🗽, sipping matcha 🍵 while reading manga or scientific articles...
 
-*If you are interested in causal reasoning or using AI agents for social good, please feel free to reach out.*
+*If you are interested in collaborating in causal reasoning or using AI agents for social good, please feel free to reach out.*
 
 ## News & Updates
 
