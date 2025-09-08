@@ -129,13 +129,10 @@ h6,
     padding-left: 1.1em;
 }
 
-/* Remove underlines from links inside paper cards */
-.paper-card a {
+/* ================================================= */
+/* CORRECTED: Targets an <a> tag that IS a .paper-card */
+/* ================================================= */
+a.paper-card,
+a.paper-card:hover {
     text-decoration: none !important;
-    color: inherit !important;
-}
-
-.paper-card a:hover {
-    text-decoration: none !important;
-    color: inherit !important;
 }
