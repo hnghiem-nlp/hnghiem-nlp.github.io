@@ -128,3 +128,14 @@ h6,
     margin-left: 0;
     padding-left: 1.1em;
 }
+
+/* Remove underlines from links inside paper cards */
+.paper-card a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.paper-card a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
