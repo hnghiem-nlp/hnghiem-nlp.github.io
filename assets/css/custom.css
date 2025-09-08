@@ -90,7 +90,7 @@ h6,
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 6px;
-    color: black;
+    color: #000000;
     font-size: 1.1rem;
 }
 
@@ -133,4 +133,9 @@ h6,
 a.paper-card,
 a.paper-card:hover {
     text-decoration: none !important;
+}
+
+/* Make the title text white and prominent */
+.dark .pc-title {
+    color: #000000;
 }
