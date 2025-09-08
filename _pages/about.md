@@ -22,7 +22,7 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
   </li>
   <li>
     <span class="news-date">08/2025</span>
-    <span class="news-text">✨ Wrapping up GenAI Internship at <b>Oracle<b>.</span>
+    <span class="news-text">✨ Wrapping up GenAI Internship at <b>Oracle</b>.</span>
   </li>
   <li>
     <span class="news-date">06/2025</span>
@@ -34,7 +34,7 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
   </li>
   <li>
     <span class="news-date">11/2024</span>
-    <span class="news-text">Presenting 2 papers at <b>EMNLP 2024<b> in FLorida 🦩</span>
+    <span class="news-text">Presenting 2 papers at <b>EMNLP 2024</b> in FLorida 🦩</span>
   </li>
 </ul>
 
