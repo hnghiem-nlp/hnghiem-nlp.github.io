@@ -1,0 +1,34 @@
+{%- assign featured = site.publications
+| where_exp: "p", "p.selected == true"
+| sort: "year" | reverse -%}
+
+<div class="paper-grid">
+    {%- for pub in featured limit:4 -%}
+    <a class="paper-card" href="{{ pub.pdf | default: pub.paperurl | default: pub.url | relative_url }}" target="_blank"
+        rel="noopener">
+        <div class="pc-thumb">
+            {%- if pub.image -%}
+            <img src="{{ pub.image | relative_url }}" alt="{{ pub.title | escape }}">
+            {%- else -%}
+            <div class="pc-thumb-fallback">📄</div>
+            {%- endif -%}
+        </div>
+        <div class="pc-body">
+            <div class="pc-venue">
+                {%- if pub.venue -%}{{ pub.venue }}{%- endif -%}
+                {%- if pub.year -%}{% if pub.venue %} · {% endif %}{{ pub.year }}{%- endif -%}
+            </div>
+            <div class="pc-title">{{ pub.title }}</div>
+            {%- if pub.authors -%}<div class="pc-authors">{{ pub.authors }}</div>{%- endif -%}
+            {%- if pub.excerpt or pub.abstract -%}<div class="pc-excerpt">{{ pub.excerpt | default: pub.abstract }}
+            </div>{%- endif -%}
+            <div class="pc-tags">
+                {%- if pub.pdf or pub.paperurl -%}<span class="pc-tag">paper</span>{%- endif -%}
+                {%- if pub.code -%}<span class="pc-tag">code</span>{%- endif -%}
+            </div>
+        </div>
+    </a>
+    {%- endfor -%}
+</div>
+
+<p><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
