@@ -84,28 +84,24 @@ h6,
     font-size: 0.85rem;
     color: #9ca3af;
     margin-bottom: 6px;
-    text-decoration: none;
 }
 
 .pc-title {
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 6px; 
-    text-decoration: none;
 }
 
 .pc-authors {
     color: #6b7280;
     font-size: 0.95rem;
     margin-bottom: 8px;
-    text-decoration: none;
 }
 
 .pc-excerpt {
     color: #374151;
     font-size: 0.95rem;
     margin-bottom: 10px;
-    text-decoration: none;
 }
 
 .pc-tags {
