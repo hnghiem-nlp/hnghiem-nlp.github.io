@@ -5,7 +5,7 @@ venue: "EMNLP"
 year: 2025
 paperurl: "https://arxiv.org/abs/0000.00000"
 code: "https://github.com/example/repo"
-image: "/assets/img/papers/placeholder-1.jpg"
+image: "/assets/img/papers/richdad.png"
 excerpt: "A study of LLMS' reasoning to contextualize SES factors in college admissions."
 selected: true
 ---
