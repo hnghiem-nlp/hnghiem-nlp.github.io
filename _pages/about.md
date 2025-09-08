@@ -7,33 +7,34 @@ redirect_from:
   - /about.html
 ---
 
-I’m a PhD student at the University of Maryland working at the intersection of **NLP**, **fairness**, and **causal methods**.
-My current work studies how large language models justify decisions in **college admissions** and **content moderation**, with a focus on structured rationales, counterfactual evaluation, and bias auditing.
+I am an incoming third-year PhD student in Computer Science at the University of Maryland, College Park under the advise of Professor [Hal Daumé III](https://users.umiacs.umd.edu/~hal3/). My research focuses on **Safety, Robustness and Trustworthiness in AI** , with a focus on application of NLP systems to solve social problems. My recent and upcoming works investigate and enhancing the robustness of Large Language Models (LLMs) in tasks that require complex reasoning. Before UMD, I earned my Master's degree at the University of Southern California and conducted research in social media under [Dr. Fred Morstatter](https://fredzilla.github.io/) and [Dr. Emilio Ferrara](http://www.emilio.ferrara.name/). 
 
-I collaborate across **NLP + HCI + causal inference**, building pipelines for data generation, alignment (DPO/KTO/GRPO), and explanation analysis at scale.
+In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quaint towns ⛰️ and electrifying cities 🗽, sipping matcha 🍵 while reading manga or scientific articles...
+
+*If you are interested in collaborating on causal reasoning or using AI agents for social good, please feel free to reach out.*
 
 ## News & Updates
 
 <ul class="news-compact">
   <li>
     <span class="news-date">09/2025</span>
-    <span class="news-text">🚀 Camera-ready for <em>DPAF</em> submitted to EMNLP 2025.</span>
+    <span class="news-text">🚀 Camera-ready for <em>Rich Dad, Poor Lad</em> submitted to **EMNLP 2025**.</span>
   </li>
   <li>
     <span class="news-date">08/2025</span>
-    <span class="news-text">✨ Invited talk scheduled at UMD CLIP on LLM fairness and causal audits.</span>
+    <span class="news-text">✨ Wrapping up GenAI Internship at **Oracle**.</span>
   </li>
   <li>
-    <span class="news-date">07/2025</span>
-    <span class="news-text">🧪 Released evaluation scripts for SES–performance flip-density analysis.</span>
+    <span class="news-date">06/2025</span>
+    <span class="news-text">🧪 Preprint for SMARTER ready.</span>
   </li>
   <li>
-    <span class="news-date">05/2025</span>
+    <span class="news-date">11/2025</span>
     <span class="news-text">2 papers accepted to EMNLP.</span>
   </li>
   <li>
-    <span class="news-date">03/2025</span>
-    <span class="news-text">New preprint on LLM explanations & structured tagging posted to arXiv.</span>
+    <span class="news-date">11/2024</span>
+    <span class="news-text">Presenting 2 papers at **EMNLP 2024** in FLorida 🦩</span>
   </li>
 </ul>
 
