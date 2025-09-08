@@ -11,7 +11,7 @@ I am an incoming third-year PhD student in Computer Science at the University of
 
 In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quaint towns ⛰️ and electrifying cities 🗽, sipping matcha 🍵 while reading manga or scientific articles...
 
-*If you are interested in collaborating on causal reasoning or using AI agents for social good, please feel free to reach out.*
+*If you are interested in causal reasoning or using AI agents for social good, please feel free to reach out.*
 
 ## News & Updates
 
