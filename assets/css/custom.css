@@ -1,6 +1,13 @@
-/* Apply Lora across the site */
-body {
-    font-family: 'Lora', Georgia, 'Times New Roman', serif;
+/* If you prefer, you can also @import the font here as a fallback:
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+*/
+
+/* Make sure our font wins over theme defaults */
+html,
+body,
+.page,
+.page__content {
+    font-family: 'Lora', Georgia, 'Times New Roman', serif !important;
     font-weight: 400;
     line-height: 1.6;
 }
@@ -10,7 +17,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    font-family: 'Lora', Georgia, serif;
+h6,
+.site-title,
+.archive__item-title,
+.page__title {
+    font-family: 'Lora', Georgia, serif !important;
     font-weight: 600;
 }
