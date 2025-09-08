@@ -18,10 +18,10 @@ I collaborate across **NLP + HCI + causal inference**, building pipelines for da
 
 ## News
 
-<ul class="news-list">
+<!-- <ul class="news-list">
 {%- for post in site.posts limit:5 -%}
   <li><strong>{{ post.date | date: "%b %Y" }}</strong> — <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {%- endfor -%}
 </ul>
 
-<p><a href="{{ '/year-archive/' | relative_url }}">All updates →</a></p>
+<p><a href="{{ '/year-archive/' | relative_url }}">All updates →</a></p> -->
