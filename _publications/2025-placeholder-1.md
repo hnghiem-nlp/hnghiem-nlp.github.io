@@ -1,5 +1,5 @@
 ---
-title: "How do Large Language Models Contextualize Socioeconomic Factors in College Admission ?"
+title: "'Rich Dad, Poor Lad': How do Large Language Models Contextualize Socioeconomic Factors in College Admission ?"
 authors: "Huy Nghiem, Phuong Anh Nguyen-Le, John Prindle, Rachel Rudinger, Hal Daumé III"
 venue: "EMNLP"
 year: 2025
