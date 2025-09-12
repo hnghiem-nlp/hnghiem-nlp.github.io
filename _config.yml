@@ -22,7 +22,7 @@ repository               : "hnghiem-nlp/hnghiem-nlp.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : "Huy Nghiem"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in AI, NLP and Computational Sociology."
