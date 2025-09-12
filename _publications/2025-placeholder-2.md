@@ -4,7 +4,7 @@ authors: "Huy Nghiem, Swetasudha Panda, Devashish Khatwani, Huy V. Nguyen, Krish
 venue: "Preprint"
 year: 2025
 paperurl: "https://arxiv.org/abs/0000.00000"
-image: "/assets/img/papers/placeholder-2.jpg"
+image: "/assets/img/papers/oci_rail.png"
 excerpt: "Simple and modular iterative frameworks to improve safety of healthcare AI assistants post-deployment via preference optimization"
 selected: true
 ---

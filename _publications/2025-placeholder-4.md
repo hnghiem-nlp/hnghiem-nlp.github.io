@@ -5,7 +5,7 @@ venue: "CVPR Workshop Navigating the Future"
 year: 2025
 pdf: "https://arxiv.org/abs/2501.02189"
 code: "https://github.com/zli12321/Vision-Language-Models-Overview"
-image: "/assets/img/papers/cvpr.jpg"
+image: "/assets/img/papers/cvpr.png"
 excerpt: "A survey on Large Vision-Langauge Models."
 selected: true
 ---
