@@ -26,7 +26,8 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
   </li>
   <li>
     <span class="news-date">06/2025</span>
-    <span class="news-text">🧪 Preprint for SMARTER ready.</span>
+    <span class="news-text">🧪 Preprint for <b><a href="https://arxiv.org/pdf/2509.15174">SMARTER</a></b>
+ ready.</span>
   </li>
   <li>
     <span class="news-date">11/2025</span>
