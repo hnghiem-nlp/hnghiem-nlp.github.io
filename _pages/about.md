@@ -18,15 +18,15 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 <ul class="news-compact">
   <li>
     <span class="news-date">09/2025</span>
-    <span class="news-text">🚀 Camera-ready for <em>Rich Dad, Poor Lad</em> submitted to <b>EMNLP 2025</b>.</span>
+    <span class="news-text">🚀 Camera-ready for <em><a href="https://arxiv.org/abs/2509.16400">Rich Dad, Poor Lad</em> submitted to <b>EMNLP 2025</b>.</span>
   </li>
   <li>
     <span class="news-date">08/2025</span>
-    <span class="news-text">✨ Wrapping up GenAI Internship at <b>Oracle</b>.</span>
+    <span class="news-text">✨ Wrapping up GenAI Internship at <b>Oracle</b> with NeurIPS workshop submission!</span>
   </li>
   <li>
     <span class="news-date">06/2025</span>
-    <span class="news-text">🧪 Preprint for <b><a href="https://arxiv.org/pdf/2509.15174">SMARTER</a></b>
+    <span class="news-text">🧪 Preprint for <em><a href="https://arxiv.org/pdf/2509.15174">SMARTER</a></em>
  ready.</span>
   </li>
   <li>
