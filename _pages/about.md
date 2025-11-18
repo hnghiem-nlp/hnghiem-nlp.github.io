@@ -17,6 +17,18 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 
 <ul class="news-compact">
   <li>
+    <span class="news-date">12/2025</span>
+    <span class="news-text">Attending NeurIPS in ☀️*San Diego* and serving as Junior Chair for <a href="https://ahli.cc/ml4h/"><em>ML4H</em></a>.
+  </span>
+  </li>
+
+  <li>
+    <span class="news-date">11/2025</span>
+    <span class="news-text">Paper accepted for *Oral* presentation at <a href="https://ahli.cc/ml4h/"><em>ML4H</em></a>.
+  </span>
+  </li>
+
+  <li>
     <span class="news-date">09/2025</span>
     <span class="news-text">🚀 Camera-ready for <a href="https://arxiv.org/abs/2509.16400"><em>Rich Dad, Poor Lad</em></a> submitted to <b>EMNLP 2025</b>.
   </span>
@@ -29,14 +41,6 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
     <span class="news-date">06/2025</span>
     <span class="news-text">🧪 Preprint for <a href="https://arxiv.org/pdf/2509.15174"><em>SMARTER</em></a>
  ready.</span>
-  </li>
-  <li>
-    <span class="news-date">11/2025</span>
-    <span class="news-text">2 papers accepted to EMNLP.</span>
-  </li>
-  <li>
-    <span class="news-date">11/2024</span>
-    <span class="news-text">Presenting 2 papers at <b>EMNLP 2024</b> in FLorida 🦩</span>
   </li>
 </ul>
 
