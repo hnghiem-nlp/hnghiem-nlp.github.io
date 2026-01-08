@@ -18,7 +18,7 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 <ul class="news-compact">
   <li>
     <span class="news-date">12/2025</span>
-    <span class="news-text">Attending NeurIPS in ☀️*San Diego* and serving as Junior Chair for <a href="https://ahli.cc/ml4h/"><em>ML4H</em></a>.
+    <span class="news-text">Attending NeuRIPS in ☀️San Diego☀️ and serving as Junior Chair for <a href="https://ahli.cc/ml4h/"><em>ML4H</em></a>.
   </span>
   </li>
 
