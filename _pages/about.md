@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming third-year PhD student in Computer Science at the University of Maryland, College Park under the advise of Professor [Hal Daumé III](https://users.umiacs.umd.edu/~hal3/). My research focuses on **Safety, Robustness and Trustworthiness in AI** , with a focus on application of NLP systems to solve social problems. My recent and upcoming works investigate and enhancing the robustness of Large Language Models (LLMs) in tasks that require complex reasoning. Before UMD, I earned my Master's degree at the University of Southern California and conducted research in social media under [Dr. Fred Morstatter](https://fredzilla.github.io/) and [Dr. Emilio Ferrara](http://www.emilio.ferrara.name/). I also worked  at the [Children's Data Network](https://datanetwork.org/) as a Data Scientist, investigating and enhancing public policy in the child welfare system.
+I am an incoming third-year PhD student in Computer Science at the University of Maryland, College Park under the advise of Professor [Hal Daumé III](https://users.umiacs.umd.edu/~hal3/). My research focuses on **Safety, Robustness and Trustworthiness in AI**, with a focus on application of NLP systems to solve social problems. My recent and upcoming works investigate and enhancing the robustness of Large Language Models (LLMs) in tasks that require complex reasoning. Before UMD, I earned my Master's degree at the University of Southern California and conducted research in social media under [Dr. Fred Morstatter](https://fredzilla.github.io/) and [Dr. Emilio Ferrara](http://www.emilio.ferrara.name/). I also worked  at the [Children's Data Network](https://datanetwork.org/) as a Data Scientist, investigating and enhancing public policy in the child welfare system.
 
 In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quaint towns ⛰️ and electrifying cities 🗽, sipping matcha 🍵 while reading manga or scientific articles...
 
@@ -17,9 +17,12 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 
 <ul class="news-compact">
   <li>
+    <span class="news-date">06/2025</span>
+    <span class="news-text">Exciting to be a <a href="https://www.matsprogram.org/">MATS 9.0</a> scholar under the mentorship of Dr. <a href="https://www.noamkolt.com/">Noam Kolt</a>!</span>
+  </li>
+  <li>
     <span class="news-date">12/2025</span>
-    <span class="news-text">Attending NeuRIPS in ☀️San Diego☀️ and serving as Junior Chair for <a href="https://ahli.cc/ml4h/"><em>ML4H</em></a>.
-  </span>
+    <span class="news-text">Attending NeurIPS in ☀️San Diego☀️ and serving as Junior Chair for <a href="https://ahli.cc/ml4h/"><em>ML4H</em></a>.</span>
   </li>
 
   <li>
@@ -36,11 +39,6 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
   <li>
     <span class="news-date">08/2025</span>
     <span class="news-text">✨ Wrapping up GenAI Internship at <b>Oracle</b> with NeurIPS workshop submission!</span>
-  </li>
-  <li>
-    <span class="news-date">06/2025</span>
-    <span class="news-text">🧪 Preprint for <a href="https://arxiv.org/pdf/2509.15174"><em>SMARTER</em></a>
- ready.</span>
   </li>
 </ul>
 
