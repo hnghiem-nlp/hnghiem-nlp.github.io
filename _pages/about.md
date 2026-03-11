@@ -17,8 +17,12 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 
 <ul class="news-compact">
   <li>
-    <span class="news-date">06/2025</span>
+    <span class="news-date">01/2026</span>
     <span class="news-text">Exciting to be a <a href="https://www.matsprogram.org/">MATS 9.0</a> scholar under the mentorship of Dr. <a href="https://www.noamkolt.com/">Noam Kolt</a>!</span>
+  </li>
+  <li>
+    <span class="news-date">01/2025</span>
+    <span class="news-text">Outstanding Reviewer Award at <b>IJCNLP-ACL</b>.</span>
   </li>
   <li>
     <span class="news-date">12/2025</span>

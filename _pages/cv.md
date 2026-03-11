@@ -18,8 +18,6 @@ Education
   * Dissertation focus: Safety, Robustness and Trustworthiness in AI Systems.
 * **M.S. in Computer Science**, University of Southern California, Los Angeles, 2018 – 2021
   * Concentration: Data Science. GPA: 3.83/4.0.
-* **B.S. in Applied Mathematics & Public Health**, University of California, Irvine, 2013
-  * GPA: 3.5/4.0.
 
 Research Experience
 ======
