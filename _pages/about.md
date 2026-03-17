@@ -22,7 +22,7 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
   </li>
   <li>
     <span class="news-date">01/2026</span>
-    <span class="news-text">Outstanding Reviewer Award at <b>IJCNLP-ACL</b>.</span>
+    <span class="news-text"><a href="https://2025.aaclnet.org/program/outstanding_reviewers/">Outstanding Reviewer Award</a> at <b>IJCNLP-AACL 2025</b>.</span>
   </li>
   <li>
     <span class="news-date">12/2025</span>
@@ -39,10 +39,6 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
     <span class="news-date">09/2025</span>
     <span class="news-text">🚀 Camera-ready for <a href="https://arxiv.org/abs/2509.16400"><em>Rich Dad, Poor Lad</em></a> submitted to <b>EMNLP 2025</b>.
   </span>
-  </li>
-  <li>
-    <span class="news-date">08/2025</span>
-    <span class="news-text">✨ Wrapping up GenAI Internship at <b>Oracle</b> with NeurIPS workshop submission!</span>
   </li>
 </ul>
 
