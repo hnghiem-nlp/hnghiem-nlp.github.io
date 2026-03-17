@@ -28,15 +28,15 @@ h6,
 
 /* ===== Featured Paper Card Grid ===== */
 .paper-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 18px;
     margin: 10px 0 24px;
 }
 
 .paper-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: #fff;
     border: 1px solid #ececec;
     border-radius: 16px;
@@ -45,6 +45,7 @@ h6,
     color: inherit;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
     transition: transform .06s ease, box-shadow .12s ease, border-color .12s ease;
+    min-height: 180px;
 }
 
 .paper-card:hover {
@@ -54,8 +55,8 @@ h6,
 }
 
 .pc-thumb {
-    width: 100%;
-    aspect-ratio: 16 / 9;
+    width: 280px;
+    min-width: 280px;
     background: #f2f3f5;
     overflow: hidden;
 }
@@ -65,6 +66,19 @@ h6,
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+/* Stack vertically on small screens */
+@media (max-width: 600px) {
+    .paper-card {
+        flex-direction: column;
+        min-height: auto;
+    }
+    .pc-thumb {
+        width: 100%;
+        min-width: 100%;
+        aspect-ratio: 16 / 9;
+    }
 }
 
 .pc-thumb-fallback {
