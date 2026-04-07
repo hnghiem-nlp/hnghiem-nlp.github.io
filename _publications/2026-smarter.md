@@ -6,7 +6,7 @@ category: conferences
 venue: "ACL"
 date: 2026-04-01
 paperurl: "https://arxiv.org/abs/2509.15174"
-image: "/images/smarter.png"
+image: "/assets/img/papers/smarter.png"
 excerpt: "A two-stage framework leveraging LLMs to generate synthetic explanations for hate speech detection with minimal labeled data."
 selected: true
 ---
