@@ -3,7 +3,7 @@
 | sort: "order" -%}
 
 <div class="paper-grid">
-    {%- for pub in featured limit:4 -%}
+    {%- for pub in featured limit:5 -%}
     <a class="paper-card" href="{{ pub.pdf | default: pub.paperurl | default: pub.url | relative_url }}" target="_blank"
         rel="noopener">
         <div class="pc-thumb">
