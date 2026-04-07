@@ -17,6 +17,10 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 
 <ul class="news-compact">
   <li>
+    <span class="news-date">04/2026</span>
+    <span class="news-text">2 papers accepted to <b>ACL 2026</b>!</span>
+  </li>
+  <li>
     <span class="news-date">01/2026</span>
     <span class="news-text">Exciting to be a <a href="https://www.matsprogram.org/">MATS 9.0</a> scholar under the mentorship of Dr. <a href="https://www.noamkolt.com/">Noam Kolt</a>!</span>
   </li>
@@ -40,6 +44,7 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
     <span class="news-text">🚀 Camera-ready for <a href="https://arxiv.org/abs/2509.16400"><em>Rich Dad, Poor Lad</em></a> submitted to <b>EMNLP 2025</b>.
   </span>
   </li>
+
 </ul>
 
 ## Selected Publications
