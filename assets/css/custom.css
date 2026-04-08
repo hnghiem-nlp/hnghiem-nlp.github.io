@@ -8,7 +8,7 @@
     --accent-dark: #cf5c55;
     --warm: #f08c7a;            /* warm salmon highlight */
     --warm-light: #fef0ed;
-    --surface: #fdf5f4;         /* subtle salmon-tinted background */
+    --surface: #fefafa;         /* subtle salmon-tinted background */
 }
 
 /* Make sure our font wins over theme defaults */
@@ -48,7 +48,7 @@ h6,
     display: flex;
     flex-direction: row;
     background: #fff;
-    border: 2px solid #999;
+    border: 2px solid #f0c4c0;
     border-radius: 16px;
     overflow: hidden;
     text-decoration: none;
@@ -61,8 +61,8 @@ h6,
 
 .paper-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
-    border-color: #e6e6e6;
+    box-shadow: 0 10px 24px rgba(232, 115, 108, 0.12);
+    border-color: #e8a8a4;
 }
 
 .pc-thumb {
@@ -297,8 +297,8 @@ a.paper-card:hover {
 }
 
 .pc-tag {
-    border-color: var(--accent-light) !important;
-    background: var(--accent-light) !important;
+    border-color: #f5d5d3 !important;
+    background: #fef0ee !important;
     color: var(--accent-dark) !important;
     font-weight: 500;
 }
