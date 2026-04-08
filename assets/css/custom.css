@@ -45,7 +45,8 @@ h6,
     color: inherit;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
     transition: transform .06s ease, box-shadow .12s ease, border-color .12s ease;
-    min-height: 180px;
+    min-height: 200px;
+    height: 200px;
 }
 
 .paper-card:hover {
@@ -73,6 +74,9 @@ h6,
     .paper-card {
         flex-direction: column;
         min-height: auto;
+    }
+    .paper-card {
+        height: auto;
     }
     .pc-thumb {
         width: 100%;
