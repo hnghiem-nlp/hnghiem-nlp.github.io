@@ -1,6 +1,16 @@
 /* If you prefer, you can also @import the font here as a fallback:*/
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 
+/* ===== Accent Color Palette ===== */
+:root {
+    --accent: #2563eb;          /* vibrant blue */
+    --accent-light: #dbeafe;    /* light blue tint */
+    --accent-dark: #1e40af;
+    --warm: #f59e0b;            /* amber highlight */
+    --warm-light: #fef3c7;
+    --surface: #f8fafc;         /* subtle off-white background */
+}
+
 /* Make sure our font wins over theme defaults */
 html,
 body,
@@ -224,4 +234,102 @@ a.paper-card:hover {
     .about-photo {
         width: 100%;
     }
+}
+
+/* ===== Section Headers with Accent Underline ===== */
+.page__content h2 {
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 6px;
+    margin-top: 32px;
+}
+
+/* ===== Colorful News Items ===== */
+.news-compact {
+    list-style: none;
+    padding-left: 0;
+}
+
+.news-compact li {
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    background: var(--surface);
+    border-left: 4px solid var(--accent);
+    transition: background 0.15s ease;
+}
+
+.news-compact li:hover {
+    background: var(--accent-light);
+}
+
+.news-date {
+    font-weight: 700;
+    color: var(--accent);
+    margin-right: 8px;
+    font-size: 0.9rem;
+}
+
+.news-text {
+    color: #374151;
+}
+
+.news-text a {
+    color: var(--accent-dark);
+    font-weight: 600;
+}
+
+/* ===== Colorful Paper Cards ===== */
+.paper-card {
+    border-left: 5px solid var(--accent) !important;
+}
+
+.paper-card:hover {
+    border-left-color: var(--warm) !important;
+    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.12);
+}
+
+.pc-venue {
+    color: var(--accent) !important;
+    font-weight: 600;
+}
+
+.pc-tag {
+    border-color: var(--accent-light) !important;
+    background: var(--accent-light) !important;
+    color: var(--accent-dark) !important;
+    font-weight: 500;
+}
+
+/* ===== Profile Photo Accent Ring ===== */
+.about-photo img {
+    border: 3px solid var(--accent) !important;
+    box-shadow: 0 0 0 4px var(--accent-light);
+}
+
+.about-links a:hover {
+    color: var(--accent) !important;
+}
+
+/* ===== Masthead Nav Accent ===== */
+.greedy-nav a:hover {
+    color: var(--accent) !important;
+}
+
+.greedy-nav .visible-links a:hover::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: var(--accent);
+    border-radius: 2px;
+}
+
+/* ===== Subtle page background ===== */
+.page__content {
+    background: transparent;
+}
+
+/* ===== Blog card accent ===== */
+.paper-grid .paper-card:only-child,
+.paper-grid .paper-card:first-child {
+    border-left-color: var(--warm) !important;
 }
