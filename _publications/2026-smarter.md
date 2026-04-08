@@ -9,6 +9,6 @@ date: 2026-04-01
 order: 1
 paperurl: "https://arxiv.org/abs/2509.15174"
 image: "/assets/img/papers/smarter.png"
-excerpt: "A two-stage framework leveraging LLMs to generate synthetic explanations for hate speech detection with minimal labeled data."
+excerpt: "Data-efficient toxicity detection via LLM-generated synthetic explanations."
 selected: true
 ---

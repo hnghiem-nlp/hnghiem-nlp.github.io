@@ -10,6 +10,6 @@ order: 3
 paperurl: "https://arxiv.org/abs/2509.16400"
 code: "https://github.com/hnghiem-nlp/ses_emnlp"
 image: "/assets/img/papers/richdad.png"
-excerpt: "A study of LLMS' reasoning to contextualize SES factors in college admissions."
+excerpt: "How LLMs contextualize socioeconomic factors in college admissions."
 selected: true
 ---
