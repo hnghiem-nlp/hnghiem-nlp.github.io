@@ -3,12 +3,12 @@
 
 /* ===== Accent Color Palette ===== */
 :root {
-    --accent: #2563eb;          /* vibrant blue */
-    --accent-light: #dbeafe;    /* light blue tint */
-    --accent-dark: #1e40af;
-    --warm: #f59e0b;            /* amber highlight */
-    --warm-light: #fef3c7;
-    --surface: #f8fafc;         /* subtle off-white background */
+    --accent: #e11d48;          /* rose/pink */
+    --accent-light: #ffe4e6;    /* light rose tint */
+    --accent-dark: #be123c;
+    --warm: #f43f5e;            /* warm rose highlight */
+    --warm-light: #fff1f2;
+    --surface: #fdf2f4;         /* subtle rose-tinted background */
 }
 
 /* Make sure our font wins over theme defaults */
@@ -239,8 +239,11 @@ a.paper-card:hover {
 /* ===== Section Headers with Accent Underline ===== */
 .page__content h2 {
     border-bottom: 3px solid var(--accent);
-    padding-bottom: 6px;
-    margin-top: 32px;
+    padding-bottom: 8px;
+    margin-top: 36px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 /* ===== Colorful News Items ===== */
@@ -300,10 +303,10 @@ a.paper-card:hover {
     font-weight: 500;
 }
 
-/* ===== Profile Photo Accent Ring ===== */
+/* ===== Profile Photo ===== */
 .about-photo img {
-    border: 3px solid var(--accent) !important;
-    box-shadow: 0 0 0 4px var(--accent-light);
+    border: 3px solid #ddd !important;
+    box-shadow: none;
 }
 
 .about-links a:hover {
