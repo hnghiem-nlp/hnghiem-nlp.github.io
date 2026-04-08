@@ -9,6 +9,6 @@ date: 2026-04-01
 order: 1
 paperurl: "https://arxiv.org/abs/2509.15174"
 image: "/assets/img/papers/smarter.png"
-excerpt: "Data-efficient toxicity detection via LLM-generated synthetic explanations."
+excerpt: "Data-efficient toxicity detection via LLM-based synthetic explanations."
 selected: true
 ---
