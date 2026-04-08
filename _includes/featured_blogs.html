@@ -1,0 +1,21 @@
+<div class="paper-grid">
+    {%- assign blogs = site.posts | sort: "date" | reverse -%}
+    {%- for post in blogs limit:3 -%}
+    <a class="paper-card" href="{{ post.url | relative_url }}">
+        <div class="pc-body">
+            <div class="pc-venue">
+                {{ post.date | date: "%B %d, %Y" }}
+            </div>
+            <div class="pc-title">{{ post.title }}</div>
+            {%- if post.excerpt -%}<div class="pc-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>{%- endif -%}
+            <div class="pc-tags">
+                {%- for tag in post.tags limit:3 -%}
+                <span class="pc-tag">{{ tag }}</span>
+                {%- endfor -%}
+            </div>
+        </div>
+    </a>
+    {%- endfor -%}
+</div>
+
+<p><a href="{{ '/year-archive/' | relative_url }}">All blog posts &rarr;</a></p>

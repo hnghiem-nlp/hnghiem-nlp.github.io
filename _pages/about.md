@@ -18,7 +18,11 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 <ul class="news-compact">
   <li>
     <span class="news-date">04/2026</span>
-    <span class="news-text">2 papers accepted to <a href="https://2026.aclweb.org/"><b>ACL 2026</b></a>!</span>
+    <span class="news-text">✍️ First blog on finetuning and <a href="/posts/2026/04/geometry-emergent-misalignment/">Emergent Misalignment</a> out! 🔥</span>
+  </li>
+  <li>
+    <span class="news-date">04/2026</span>
+    <span class="news-text">🎉 2 papers accepted to <a href="https://2026.aclweb.org/"><b>ACL 2026</b></a>!</span>
   </li>
   <li>
     <span class="news-date">01/2026</span>
@@ -50,3 +54,7 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 ## Selected Publications
 
 {% include featured_pubs.html %}
+
+## 📝 Blogs
+
+{% include featured_blogs.html %}
