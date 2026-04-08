@@ -3,12 +3,12 @@
 
 /* ===== Accent Color Palette ===== */
 :root {
-    --accent: #e11d48;          /* rose/pink */
-    --accent-light: #ffe4e6;    /* light rose tint */
-    --accent-dark: #be123c;
-    --warm: #f43f5e;            /* warm rose highlight */
-    --warm-light: #fff1f2;
-    --surface: #fdf2f4;         /* subtle rose-tinted background */
+    --accent: #e8736c;          /* salmon */
+    --accent-light: #fde8e6;    /* light salmon tint */
+    --accent-dark: #cf5c55;
+    --warm: #f08c7a;            /* warm salmon highlight */
+    --warm-light: #fef0ed;
+    --surface: #fdf5f4;         /* subtle salmon-tinted background */
 }
 
 /* Make sure our font wins over theme defaults */
