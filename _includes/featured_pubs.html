@@ -16,7 +16,6 @@
         <div class="pc-body">
             <div class="pc-venue">
                 {%- if pub.venue -%}{{ pub.venue }}{%- endif -%}
-                {%- if pub.year -%}{% if pub.venue %} · {% endif %}{{ pub.year }}{%- endif -%}
             </div>
             <div class="pc-title">{{ pub.title }}</div>
             {%- if pub.authors -%}<div class="pc-authors">{{ pub.authors }}</div>{%- endif -%}
