@@ -51,10 +51,10 @@ In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quain
 
 </ul>
 
-## Selected Publications
-
-{% include featured_pubs.html %}
-
 ## 📝 Blogs
 
 {% include featured_blogs.html %}
+
+## Selected Publications
+
+{% include featured_pubs.html %}
