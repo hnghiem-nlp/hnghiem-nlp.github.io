@@ -31,6 +31,10 @@ redirect_from:
 
 <ul class="news-compact">
   <li>
+    <span class="news-date">06/2026</span>
+    <span class="news-text">📄 New paper: <a href="https://www.researchgate.net/publication/406308910_Trait-space_Monitoring_for_Emergent_Misalignment_During_Supervised_Finetuning"><em>Trait-space Monitoring for Emergent Misalignment During Supervised Finetuning</em></a>.</span>
+  </li>
+  <li>
     <span class="news-date">04/2026</span>
     <span class="news-text">📄 New preprint: <a href="https://arxiv.org/abs/2604.19984"><em>Bias in the Tails</em></a> — how name-conditioned framing destabilizes LLM-based hiring.</span>
   </li>
@@ -53,12 +57,6 @@ redirect_from:
   <li>
     <span class="news-date">12/2025</span>
     <span class="news-text">Attending NeurIPS in ☀️San Diego☀️ and serving as Junior Chair for <a href="https://ahli.cc/ml4h/"><em>ML4H</em></a>.</span>
-  </li>
-
-  <li>
-    <span class="news-date">11/2025</span>
-    <span class="news-text">Paper accepted for *Oral* presentation at <a href="https://ahli.cc/ml4h/"><em>ML4H</em></a>.
-  </span>
   </li>
 
 </ul>
