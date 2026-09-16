@@ -3,7 +3,8 @@ title: "Balancing Safety and Helpfulness in Healthcare AI Assistants through Ite
 authors: "Huy Nghiem, Swetasudha Panda, Devashish Khatwani, Huy V. Nguyen, Krishnaram Kenthapadi, Hal Daumé III"
 collection: publications
 category: conferences
-venue: "ML4H 2025 - Best Paper"
+venue: "ML4H 2025"
+award: "Best Paper"
 year: 2025
 date: 2025-12-01
 order: 2

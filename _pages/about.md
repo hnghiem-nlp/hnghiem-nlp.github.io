@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello World :)"
+title: "Huy Nghiem"
 author_profile: false
 redirect_from: 
   - /about/
@@ -10,7 +10,6 @@ redirect_from:
 <div class="about-header">
   <div class="about-photo">
     <img src="/images/profile.jpg" alt="Huy Nghiem">
-    <div class="about-name">Huy Nghiem</div>
     <div class="about-bio">PhD Student in AI, NLP and Computational Sociology</div>
     <div class="about-links">
       <a href="mailto:nghiemh@umd.edu"><i class="fas fa-envelope"></i></a>
@@ -21,7 +20,7 @@ redirect_from:
     </div>
   </div>
   <div class="about-text">
-    <p>I am a third-year PhD student in Computer Science at the University of Maryland, College Park under the advise of Professor <a href="https://users.umiacs.umd.edu/~hal3/">Hal Daumé III</a>. My research focuses on <b>Safety, Robustness and Trustworthiness in AI</b>, with a focus on application of NLP systems to solve social problems. My recent and upcoming works investigate and enhancing the robustness of Large Language Models (LLMs) in tasks that require complex reasoning. Before UMD, I earned my Master's degree at the University of Southern California and conducted research in social media under <a href="https://fredzilla.github.io/">Dr. Fred Morstatter</a> and <a href="http://www.emilio.ferrara.name/">Dr. Emilio Ferrara</a>. I also worked at the <a href="https://datanetwork.org/">Children's Data Network</a> as a Data Scientist, investigating and enhancing public policy in the child welfare system.</p>
+    <p>I am a third-year PhD student in Computer Science at the University of Maryland, College Park advised by Professor <a href="https://users.umiacs.umd.edu/~hal3/">Hal Daumé III</a>. My research focuses on <b>Safety, Robustness and Trustworthiness in AI</b>, with a focus on application of NLP systems to solve social problems. My recent and upcoming works investigate and enhancing the robustness of Large Language Models (LLMs) in tasks that require complex reasoning. Before UMD, I earned my Master's degree at the University of Southern California and conducted research in social media under <a href="https://fredzilla.github.io/">Dr. Fred Morstatter</a> and <a href="http://www.emilio.ferrara.name/">Dr. Emilio Ferrara</a>. I also worked at the <a href="https://datanetwork.org/">Children's Data Network</a> as a Data Scientist, investigating and enhancing public policy in the child welfare system.</p>
     <p>In my free time, I enjoy casual hiking along scenic routes 🌲, exploring quaint towns ⛰️ and electrifying cities 🗽, sipping matcha 🍵 while reading manga or scientific articles...</p>
     <p><em>If you are interested in collaborating in causal reasoning or using AI agents for social good, please feel free to reach out.</em></p>
   </div>
@@ -61,7 +60,7 @@ redirect_from:
 
 </ul>
 
-## 📝 Blogs
+## Blog
 
 {% include featured_blogs.html %}
 

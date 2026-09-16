@@ -1,25 +1,92 @@
-/* If you prefer, you can also @import the font here as a fallback:*/
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+/* ==========================================================================
+   Emerald & Rose — professional pastel theme
+   Pastels are used for surfaces only; text uses the deep variants.
+   ========================================================================== */
 
-/* ===== Accent Color Palette ===== */
+/* ===== Palette ===== */
 :root {
-    --accent: #e8736c;          /* salmon */
-    --accent-light: #fde8e6;    /* light salmon tint */
-    --accent-dark: #cf5c55;
-    --warm: #f08c7a;            /* warm salmon highlight */
-    --warm-light: #fef0ed;
-    --surface: #fefafa;         /* subtle salmon-tinted background */
+    --ink: #1f2a2e;             /* body text */
+    --muted: #5c6b70;           /* secondary text */
+    --rule: #e3e9e6;            /* hairline dividers */
+
+    --primary: #2e6b57;         /* muted emerald: links, rules */
+    --primary-hover: #214f40;
+    --primary-mid: #b7d8c8;     /* sage */
+    --primary-pastel: #e7f3ed;  /* mint mist */
+
+    --accent: #9c4a73;          /* dusty raspberry: awards, dates, own name */
+    --accent-mid: #e9c3d6;      /* mauve pink */
+    --accent-pastel: #f9eaf1;   /* blush */
+
+    --bg: #fbfcfb;
+
+    /* Map onto the AcademicPages theme variables */
+    --global-bg-color: var(--bg);
+    --global-footer-bg-color: #f1f5f3;
+    --global-border-color: var(--rule);
+    --global-text-color: var(--ink);
+    --global-text-color-light: var(--muted);
+    --global-link-color: var(--primary);
+    --global-link-color-hover: var(--primary-hover);
+    --global-link-color-visited: var(--primary);
+    --global-masthead-link-color: var(--ink);
+    --global-masthead-link-color-hover: var(--primary);
 }
 
-/* Make sure our font wins over theme defaults */
+html[data-theme="dark"] {
+    --ink: #e4ebe8;
+    --muted: #9fb0aa;
+    --rule: #2a3733;
+
+    --primary: #8fd1b5;
+    --primary-hover: #b7e5d1;
+    --primary-mid: #3d6b5b;
+    --primary-pastel: #1c2a26;
+
+    --accent: #eeb0cd;
+    --accent-mid: #6e3d56;
+    --accent-pastel: #2c1f26;
+
+    --bg: #141c1a;
+
+    --global-base-color: var(--bg);
+    --global-bg-color: var(--bg);
+    --global-footer-bg-color: #111816;
+    --global-border-color: var(--rule);
+    --global-dark-border-color: var(--rule);
+    --global-text-color: var(--ink);
+    --global-text-color-light: var(--muted);
+    --global-link-color: var(--primary);
+    --global-link-color-hover: var(--primary-hover);
+    --global-link-color-visited: var(--primary);
+    --global-masthead-link-color: var(--ink);
+    --global-masthead-link-color-hover: var(--primary);
+    --global-thead-color: var(--primary-pastel);
+}
+
+/* ===== Typography ===== */
+html {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 17px;
+    }
+}
+
 html,
 body,
 .page,
 .page__content {
-    font-family: 'Lora', Georgia, 'Times New Roman', serif !important;
+    font-family: 'Source Sans 3', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
     font-weight: 400;
-    line-height: 1.6;
-    font-size: 14px;
+    line-height: 1.65;
+    color: var(--ink);
+}
+
+body {
+    background: var(--bg);
 }
 
 h1,
@@ -28,202 +95,117 @@ h3,
 h4,
 h5,
 h6,
-.site-title,
-.archive__item-title,
+.page__title,
+.archive__item-title {
+    font-family: 'Lora', Georgia, serif;
+    font-weight: 600;
+    color: var(--ink);
+}
+
 .page__title {
-    font-family: 'Lora', Georgia, serif !important;
+    font-size: 2rem;
+    letter-spacing: -0.01em;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.page__content h2,
+.archive h2 {
+    font-size: 1.3rem;
+    margin-top: 2.2rem;
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--primary-mid);
+}
+
+/* ===== Masthead ===== */
+.masthead {
+    background: var(--bg);
+}
+
+.masthead__inner-wrap {
+    font-family: 'Source Sans 3', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.greedy-nav {
+    background: var(--bg);
+}
+
+.greedy-nav .visible-links li:first-child a {
+    font-family: 'Lora', Georgia, serif;
     font-weight: 600;
 }
 
-
-/* ===== Featured Paper Card Grid ===== */
-.paper-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    margin: 10px 0 24px;
+.greedy-nav .visible-links a:before {
+    height: 2px;
+    background: var(--primary-mid);
 }
 
-.paper-card {
-    display: flex;
-    flex-direction: row;
-    background: #fff;
-    border: 2px solid #f5dbd9;
-    border-radius: 16px;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
-    transition: transform .06s ease, box-shadow .12s ease, border-color .12s ease;
-    min-height: 200px;
-    height: 200px;
+.greedy-nav button {
+    background-color: var(--primary);
 }
 
-.paper-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 24px rgba(232, 115, 108, 0.12);
-    border-color: #e8a8a4;
-}
-
-.pc-thumb {
-    width: 280px;
-    min-width: 280px;
-    background: #f2f3f5;
-    overflow: hidden;
-}
-
-.pc-thumb img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-/* Stack vertically on small screens */
-@media (max-width: 600px) {
-    .paper-card {
-        flex-direction: column;
-        min-height: auto;
-    }
-    .paper-card {
-        height: auto;
-    }
-    .pc-thumb {
-        width: 100%;
-        min-width: 100%;
-        aspect-ratio: 16 / 9;
-    }
-}
-
-.pc-thumb-fallback {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    font-size: 42px;
-    color: #9aa0a6;
-}
-
-.pc-body {
-    padding: 12px 14px 14px;
-}
-
-.pc-venue {
-    font-size: 0.85rem;
-    color: #9ca3af;
-    margin-bottom: 6px;
-}
-
-.pc-title {
-    font-weight: 700;
-    line-height: 1.25;
-    margin-bottom: 6px;
-    color: #000000;
-    font-size: 1.1rem;
-}
-
-.pc-authors {
-    color: #6b7280;
-    font-size: 0.95rem;
-    margin-bottom: 8px;
-}
-
-.pc-excerpt {
-    color: #374151;
-    font-size: 0.95rem;
-    margin-bottom: 10px;
-}
-
-.pc-tags {
-    display: flex;
-    gap: 8px;
-}
-
-.pc-tag {
-    display: inline-block;
-    border: 1px solid #e5e7eb;
-    background: #fafafa;
-    border-radius: 999px;
-    padding: 3px 8px;
-    font-size: 0.8rem;
-    color: #6b7280;
-}
-
-/* optional: tighten section spacing */
-.news-list {
-    margin-left: 0;
-    padding-left: 1.1em;
-}
-
-/* ================================================= */
-/* CORRECTED: Targets an <a> tag that IS a .paper-card */
-/* ================================================= */
-a.paper-card,
-a.paper-card:hover {
-    text-decoration: none !important;
-}
-
-/* Make the title text white and prominent */
-.dark .pc-title {
-    color: #000000;
-}
-
-/* ===== About Header: Photo Right Float ===== */
+/* ===== About header ===== */
 .about-header {
     display: flex;
     flex-direction: row-reverse;
-    gap: 30px;
-    margin-bottom: 24px;
+    gap: 2rem;
+    margin-bottom: 1rem;
 }
 
 .about-photo {
     flex-shrink: 0;
-    width: 220px;
+    width: 190px;
     text-align: center;
 }
 
 .about-photo img {
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #ddd;
-}
-
-.about-name {
-    font-family: 'Lora', Georgia, serif !important;
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin-top: 10px;
+    border: 3px solid var(--primary-pastel);
 }
 
 .about-bio {
     font-size: 0.85rem;
-    color: #6b7280;
-    margin-top: 4px;
+    color: var(--muted);
+    margin-top: 0.5rem;
+    line-height: 1.4;
 }
 
 .about-links {
-    margin-top: 8px;
+    margin-top: 0.5rem;
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 0.8rem;
 }
 
 .about-links a {
-    color: #374151;
-    font-size: 1.2rem;
-    transition: color 0.15s ease;
-    text-decoration: none;
+    color: var(--muted);
+    font-size: 1.1rem;
 }
 
 .about-links a:hover {
-    color: #1155cc;
+    color: var(--primary);
+    text-decoration: none;
 }
 
 .about-text {
     flex: 1;
-    text-align: justify;
+}
+
+.about-text p {
+    margin-top: 0;
 }
 
 @media (max-width: 600px) {
@@ -231,108 +213,274 @@ a.paper-card:hover {
         flex-direction: column;
         align-items: center;
     }
+
     .about-photo {
         width: 100%;
     }
 }
 
-/* ===== Section Headers with Accent Underline ===== */
-.page__content h2 {
-    border-bottom: 3px solid var(--accent);
-    padding-bottom: 8px;
-    margin-top: 36px;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
-/* ===== Colorful News Items ===== */
+/* ===== News ===== */
 .news-compact {
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 
 .news-compact li {
-    padding: 8px 12px;
-    margin-bottom: 6px;
-    border-radius: 8px;
-    background: var(--surface);
-    border-left: 4px solid var(--accent);
-    transition: background 0.15s ease;
+    display: flex;
+    gap: 1rem;
+    padding: 0.3rem 0.6rem;
+    margin: 0 0 0.15rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
 
-.news-compact li:hover {
-    background: var(--accent-light);
+.news-compact li:nth-child(-n+2) {
+    background: var(--accent-pastel);
 }
 
 .news-date {
-    font-weight: 700;
+    flex-shrink: 0;
+    width: 4.2rem;
     color: var(--accent);
-    margin-right: 8px;
-    font-size: 0.9rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
 }
 
 .news-text {
-    color: #374151;
+    color: var(--ink);
 }
 
-.news-text a {
-    color: var(--accent-dark);
+/* ===== Badges ===== */
+.badge {
+    display: inline-block;
+    padding: 0.05rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
+.badge-venue {
+    background: var(--primary-pastel);
+    border: 1px solid var(--primary-mid);
+    color: var(--primary);
+}
+
+.badge-award {
+    background: var(--accent-pastel);
+    border: 1px solid var(--accent-mid);
+    color: var(--accent);
+}
+
+/* ===== Publication list ===== */
+.pub-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0 1rem;
+}
+
+.pub {
+    display: flex;
+    gap: 1.1rem;
+    padding: 0.9rem 0.6rem;
+    border-bottom: 1px solid var(--rule);
+    border-radius: 4px;
+    transition: background 0.15s ease;
+}
+
+.pub:last-child {
+    border-bottom: none;
+}
+
+.pub:hover {
+    background: var(--primary-pastel);
+}
+
+.pub-thumb {
+    flex-shrink: 0;
+    width: 160px;
+}
+
+.pub-thumb img {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--rule);
+    background: #fff;
+    display: block;
+}
+
+.pub-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.pub-title {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.35;
+    margin-bottom: 0.2rem;
+}
+
+.pub-title a {
+    color: var(--ink);
+}
+
+.pub-title a:hover {
+    color: var(--primary);
+}
+
+.pub-authors {
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.pub-me {
+    color: var(--ink);
+    font-weight: 700;
+}
+
+.pub-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.35rem 0 0.25rem;
+}
+
+.pub-summary {
+    color: var(--muted);
+    font-size: 0.88rem;
+    line-height: 1.45;
+}
+
+.pub-links {
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+}
+
+.pub-links a {
+    margin-right: 0.6rem;
     font-weight: 600;
 }
 
-/* ===== Colorful Paper Cards ===== */
-.paper-card {
-    border-left: 5px solid var(--accent) !important;
+.pub-links a::before {
+    content: "[";
+    color: var(--muted);
+    font-weight: 400;
 }
 
-.paper-card:hover {
-    border-left-color: var(--warm) !important;
-    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.12);
+.pub-links a::after {
+    content: "]";
+    color: var(--muted);
+    font-weight: 400;
 }
 
-.pc-venue {
-    color: var(--accent) !important;
+@media (max-width: 600px) {
+    .pub {
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .pub-thumb,
+    .pub-thumb img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.pub-year {
+    font-variant-numeric: tabular-nums;
+}
+
+/* ===== Blog list ===== */
+.post-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5rem 0 1rem;
+}
+
+.post-list li {
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem 0.6rem;
+    border-radius: 4px;
+}
+
+.post-list li:hover {
+    background: var(--primary-pastel);
+}
+
+.post-date {
+    flex-shrink: 0;
+    width: 4.2rem;
+    color: var(--accent);
     font-weight: 600;
+    font-size: 0.95rem;
 }
 
-.pc-tag {
-    border-color: #f5d5d3 !important;
-    background: #fef0ee !important;
-    color: var(--accent-dark) !important;
+.post-title {
+    font-weight: 600;
+    color: var(--ink);
+}
+
+.post-title:hover {
+    color: var(--primary);
+}
+
+.post-summary {
+    color: var(--muted);
+    font-size: 0.88rem;
+    line-height: 1.45;
+    margin-top: 0.15rem;
+}
+
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.35rem;
+}
+
+.post-tags .badge {
     font-weight: 500;
 }
 
-/* ===== Profile Photo ===== */
-.about-photo img {
-    border: 3px solid #ddd !important;
-    box-shadow: none;
+/* ===== "See all" links ===== */
+.more-link {
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
-.about-links a:hover {
-    color: var(--accent) !important;
+/* ===== Buttons (CV download etc.) ===== */
+.btn--primary {
+    background-color: var(--primary) !important;
+    color: #fff !important;
 }
 
-/* ===== Masthead Nav Accent ===== */
-.greedy-nav a:hover {
-    color: var(--accent) !important;
+.btn--primary:hover {
+    background-color: var(--primary-hover) !important;
+    text-decoration: none;
 }
 
-.greedy-nav .visible-links a:hover::after {
-    content: '';
-    display: block;
-    height: 3px;
-    background: var(--accent);
-    border-radius: 2px;
+/* ===== Footer ===== */
+.page__footer {
+    background: var(--global-footer-bg-color);
+    color: var(--muted);
+    border-top: 1px solid var(--rule);
 }
 
-/* ===== Subtle page background ===== */
-.page__content {
-    background: transparent;
+.page__footer a {
+    color: var(--primary);
 }
 
-/* ===== Blog card accent ===== */
-.paper-grid .paper-card:only-child,
-.paper-grid .paper-card:first-child {
-    border-left-color: var(--warm) !important;
+/* ===== Selection ===== */
+::selection {
+    background: var(--accent-mid);
+    color: var(--ink);
 }

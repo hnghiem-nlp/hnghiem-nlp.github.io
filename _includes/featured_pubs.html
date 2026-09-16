@@ -2,32 +2,10 @@
 | where_exp: "p", "p.selected == true"
 | sort: "order" -%}
 
-<div class="paper-grid">
+<div class="pub-list">
     {%- for pub in featured limit:5 -%}
-    <a class="paper-card" href="{{ pub.pdf | default: pub.paperurl | default: pub.url | relative_url }}" target="_blank"
-        rel="noopener">
-        <div class="pc-thumb">
-            {%- if pub.image -%}
-            <img src="{{ pub.image | relative_url }}" alt="{{ pub.title | escape }}">
-            {%- else -%}
-            <div class="pc-thumb-fallback">📄</div>
-            {%- endif -%}
-        </div>
-        <div class="pc-body">
-            <div class="pc-venue">
-                {%- if pub.venue -%}{{ pub.venue }}{%- endif -%}
-            </div>
-            <div class="pc-title">{{ pub.title }}</div>
-            {%- if pub.authors -%}<div class="pc-authors">{{ pub.authors }}</div>{%- endif -%}
-            {%- if pub.excerpt or pub.abstract -%}<div class="pc-excerpt">{{ pub.excerpt | default: pub.abstract }}
-            </div>{%- endif -%}
-            <div class="pc-tags">
-                {%- if pub.pdf or pub.paperurl -%}<span class="pc-tag">paper</span>{%- endif -%}
-                {%- if pub.code -%}<span class="pc-tag">code</span>{%- endif -%}
-            </div>
-        </div>
-    </a>
+    {%- include pub_entry.html pub=pub -%}
     {%- endfor -%}
 </div>
 
-<p><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
+<p class="more-link"><a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a></p>

@@ -1,21 +1,25 @@
-<div class="paper-grid">
-    {%- assign blogs = site.posts | sort: "date" | reverse -%}
+{%- assign blogs = site.posts | sort: "date" | reverse -%}
+<ul class="post-list">
     {%- for post in blogs limit:3 -%}
-    <a class="paper-card" href="{{ post.url | relative_url }}">
-        <div class="pc-body">
-            <div class="pc-venue">
-                {{ post.date | date: "%B %d, %Y" }}
-            </div>
-            <div class="pc-title">{{ post.title }}</div>
-            {%- if post.excerpt -%}<div class="pc-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>{%- endif -%}
-            <div class="pc-tags">
-                {%- for tag in post.tags limit:3 -%}
-                <span class="pc-tag">{{ tag }}</span>
+    <li>
+        <span class="post-date">{{ post.date | date: "%m/%Y" }}</span>
+        <div>
+            <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {%- if post.summary -%}
+            <div class="post-summary">{{ post.summary }}</div>
+            {%- elsif post.excerpt -%}
+            <div class="post-summary">{{ post.excerpt | strip_html | truncatewords: 35 }}</div>
+            {%- endif -%}
+            {%- if post.tags.size > 0 -%}
+            <div class="post-tags">
+                {%- for tag in post.tags limit:4 -%}
+                <span class="badge badge-venue">{{ tag }}</span>
                 {%- endfor -%}
             </div>
+            {%- endif -%}
         </div>
-    </a>
+    </li>
     {%- endfor -%}
-</div>
+</ul>
 
-<p><a href="{{ '/year-archive/' | relative_url }}">All blog posts &rarr;</a></p>
+<p class="more-link"><a href="{{ '/year-archive/' | relative_url }}">All blog posts &rarr;</a></p>

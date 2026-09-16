@@ -8,6 +8,7 @@ tags:
   - emergent misalignment
   - mechanistic interpretability
 related: false
+summary: "Finetuning 4 model families on 7 perturbation types, we find alignment drift follows one shared axis, yet the same drift yields up to 4x different emergent misalignment rates across architectures."
 ---
 
 **Authors: Huy Nghiem**

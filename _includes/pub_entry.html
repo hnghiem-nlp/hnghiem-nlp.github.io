@@ -1,0 +1,46 @@
+{%- assign pub = include.pub -%}
+{%- assign pub_link = pub.paperurl | default: pub.pdf -%}
+{%- capture me -%}<span class="pub-me">{{ site.author.name }}</span>{%- endcapture -%}
+<div class="pub">
+    {%- if pub.image -%}
+    <div class="pub-thumb">
+        <img src="{{ pub.image | relative_url }}" alt="" loading="lazy">
+    </div>
+    {%- endif -%}
+    <div class="pub-body">
+        <div class="pub-title">
+            {%- if pub_link -%}
+            <a href="{{ pub_link }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+            {%- else -%}
+            {{ pub.title }}
+            {%- endif -%}
+        </div>
+        {%- if pub.authors -%}
+        <div class="pub-authors">{{ pub.authors | replace: site.author.name, me }}</div>
+        {%- endif -%}
+        <div class="pub-meta">
+            {%- if pub.venue -%}<span class="badge badge-venue">{{ pub.venue }}</span>{%- endif -%}
+            {%- if pub.award -%}<span class="badge badge-award">&#9733; {{ pub.award }}</span>{%- endif -%}
+        </div>
+        {%- if pub.excerpt -%}
+        <div class="pub-summary">{{ pub.excerpt | strip_html }}</div>
+        {%- endif -%}
+        <div class="pub-links">
+            {%- if pub.paperurl -%}
+            <a href="{{ pub.paperurl }}" target="_blank" rel="noopener">{% if pub.paperurl contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %}</a>
+            {%- endif -%}
+            {%- if pub.pdf -%}
+            <a href="{{ pub.pdf }}" target="_blank" rel="noopener">{% if pub.pdf contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %}</a>
+            {%- endif -%}
+            {%- if pub.code -%}
+            <a href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>
+            {%- endif -%}
+            {%- if pub.slidesurl -%}
+            <a href="{{ pub.slidesurl }}" target="_blank" rel="noopener">Slides</a>
+            {%- endif -%}
+            {%- if pub.bibtexurl -%}
+            <a href="{{ pub.bibtexurl }}" target="_blank" rel="noopener">BibTeX</a>
+            {%- endif -%}
+        </div>
+    </div>
+</div>
