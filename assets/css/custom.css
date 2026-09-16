@@ -20,7 +20,7 @@
 
     --bg: #f3f7f5;              /* soft mint-gray page */
     --surface: #ffffff;         /* panels sit on the page like paper */
-    --hero-gradient: linear-gradient(120deg, #dcede4 0%, #ebf5f0 45%, #fafdfb 100%);
+    --hero-gradient: linear-gradient(120deg, #e9f4ee 0%, #f3f9f6 45%, #fdfefd 100%);
     --brand-stripe: linear-gradient(90deg, #2e6b57 0%, #7fb59c 50%, #c8829f 100%);
 
     /* Map onto the AcademicPages theme variables */
@@ -52,7 +52,7 @@ html[data-theme="dark"] {
 
     --bg: #121917;
     --surface: #19221f;
-    --hero-gradient: linear-gradient(120deg, #1d3029 0%, #1a2622 50%, #19221f 100%);
+    --hero-gradient: linear-gradient(120deg, #1b2a25 0%, #1a2521 50%, #19221f 100%);
     --brand-stripe: linear-gradient(90deg, #8fd1b5 0%, #5f9c86 50%, #d08aab 100%);
 
     --global-base-color: var(--bg);
