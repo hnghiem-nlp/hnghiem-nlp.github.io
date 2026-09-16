@@ -30,6 +30,14 @@ redirect_from:
 
 <ul class="news-compact">
   <li>
+    <span class="news-date">08/2026</span>
+    <span class="news-text">💼 Completed my Applied Scientist internship at <b>Oracle</b> in New York City.</span>
+  </li>
+  <li>
+    <span class="news-date">07/2026</span>
+    <span class="news-text">🎉 <a href="https://arxiv.org/abs/2604.19984"><em>Bias in the Tails</em></a> accepted to <b>EMNLP 2026</b> in Budapest!</span>
+  </li>
+  <li>
     <span class="news-date">06/2026</span>
     <span class="news-text">📄 New paper: <a href="https://www.researchgate.net/publication/406308910_Trait-space_Monitoring_for_Emergent_Misalignment_During_Supervised_Finetuning"><em>Trait-space Monitoring for Emergent Misalignment During Supervised Finetuning</em></a>.</span>
   </li>
