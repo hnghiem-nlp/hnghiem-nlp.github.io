@@ -18,11 +18,14 @@
     --accent-mid: #e9c3d6;      /* mauve pink */
     --accent-pastel: #f9eaf1;   /* blush */
 
-    --bg: #fbfcfb;
+    --bg: #f3f7f5;              /* soft mint-gray page */
+    --surface: #ffffff;         /* panels sit on the page like paper */
+    --hero-gradient: linear-gradient(120deg, #e3f1ea 0%, #ffffff 48%, #f8e6ef 100%);
+    --brand-stripe: linear-gradient(90deg, #2e6b57 0%, #7fb59c 50%, #c8829f 100%);
 
     /* Map onto the AcademicPages theme variables */
     --global-bg-color: var(--bg);
-    --global-footer-bg-color: #f1f5f3;
+    --global-footer-bg-color: #e6efeb;
     --global-border-color: var(--rule);
     --global-text-color: var(--ink);
     --global-text-color-light: var(--muted);
@@ -47,11 +50,14 @@ html[data-theme="dark"] {
     --accent-mid: #6e3d56;
     --accent-pastel: #2c1f26;
 
-    --bg: #141c1a;
+    --bg: #121917;
+    --surface: #19221f;
+    --hero-gradient: linear-gradient(120deg, #1b2c26 0%, #19221f 50%, #2a1e25 100%);
+    --brand-stripe: linear-gradient(90deg, #8fd1b5 0%, #5f9c86 50%, #d08aab 100%);
 
     --global-base-color: var(--bg);
     --global-bg-color: var(--bg);
-    --global-footer-bg-color: #111816;
+    --global-footer-bg-color: #0f1513;
     --global-border-color: var(--rule);
     --global-dark-border-color: var(--rule);
     --global-text-color: var(--ink);
@@ -119,7 +125,7 @@ a:hover {
 }
 
 .page__content h2,
-.archive h2 {
+.archive h2:not(.archive__item-title) {
     font-size: 1.3rem;
     margin-top: 2.2rem;
     margin-bottom: 0.9rem;
@@ -127,9 +133,31 @@ a:hover {
     border-bottom: 1px solid var(--primary-mid);
 }
 
+.page__content h2::before,
+.archive h2:not(.archive__item-title)::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 1.05em;
+    margin-right: 0.55rem;
+    vertical-align: -0.15em;
+    border-radius: 2px;
+    background: linear-gradient(180deg, var(--primary) 0%, var(--accent) 100%);
+}
+
 /* ===== Masthead ===== */
 .masthead {
     background: var(--bg);
+}
+
+.masthead::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--brand-stripe);
 }
 
 .masthead__inner-wrap {
@@ -160,6 +188,10 @@ a:hover {
     flex-direction: row-reverse;
     gap: 2rem;
     margin-bottom: 1rem;
+    padding: 1.6rem 1.8rem;
+    background: var(--hero-gradient);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
 }
 
 .about-photo {
@@ -173,7 +205,8 @@ a:hover {
     height: 170px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid var(--primary-pastel);
+    border: 4px solid var(--surface);
+    box-shadow: 0 0 0 1px var(--primary-mid);
 }
 
 .about-bio {
@@ -217,12 +250,26 @@ a:hover {
     .about-photo {
         width: 100%;
     }
+
+    .about-header {
+        padding: 1.2rem;
+    }
+}
+
+/* ===== Section panels ===== */
+.news-compact,
+.post-list,
+.pub-list {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(31, 42, 46, 0.04);
 }
 
 /* ===== News ===== */
 .news-compact {
     list-style: none;
-    padding-left: 0;
+    padding: 0.5rem;
     margin: 0;
 }
 
@@ -281,6 +328,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     margin: 0.5rem 0 1rem;
+    padding: 0.4rem;
 }
 
 .pub {
@@ -401,7 +449,7 @@ a:hover {
 /* ===== Blog list ===== */
 .post-list {
     list-style: none;
-    padding-left: 0;
+    padding: 0.4rem;
     margin: 0.5rem 0 1rem;
 }
 

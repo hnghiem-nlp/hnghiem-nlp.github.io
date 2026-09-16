@@ -43,10 +43,6 @@ redirect_from:
   </li>
   <li>
     <span class="news-date">04/2026</span>
-    <span class="news-text">📄 New preprint: <a href="https://arxiv.org/abs/2604.19984"><em>Bias in the Tails</em></a> — how name-conditioned framing destabilizes LLM-based hiring.</span>
-  </li>
-  <li>
-    <span class="news-date">04/2026</span>
     <span class="news-text">✍️ First blog on finetuning and <a href="/posts/2026/04/geometry-emergent-misalignment/">Emergent Misalignment</a> out! 🔥</span>
   </li>
   <li>
