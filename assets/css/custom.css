@@ -1,31 +1,31 @@
 /* ==========================================================================
-   Emerald & Rose — professional pastel theme
+   Matcha & Rose — professional pastel theme
    Pastels are used for surfaces only; text uses the deep variants.
    ========================================================================== */
 
 /* ===== Palette ===== */
 :root {
-    --ink: #1f2a2e;             /* body text */
-    --muted: #5c6b70;           /* secondary text */
-    --rule: #e3e9e6;            /* hairline dividers */
+    --ink: #262b22;             /* body text: warm charcoal */
+    --muted: #5d6655;           /* secondary text */
+    --rule: #e2e7d6;            /* hairline dividers */
 
-    --primary: #2e6b57;         /* muted emerald: links, rules */
-    --primary-hover: #214f40;
-    --primary-mid: #b7d8c8;     /* sage */
-    --primary-pastel: #e7f3ed;  /* mint mist */
+    --primary: #4e6a2b;         /* deep matcha: links, rules */
+    --primary-hover: #3c5320;
+    --primary-mid: #c9d8a8;     /* whisked matcha */
+    --primary-pastel: #eef3df;  /* matcha latte foam */
 
     --accent: #9c4a73;          /* dusty raspberry: awards, dates, own name */
     --accent-mid: #e9c3d6;      /* mauve pink */
     --accent-pastel: #f9eaf1;   /* blush */
 
-    --bg: #f3f7f5;              /* soft mint-gray page */
+    --bg: #f5f7ee;              /* soft matcha-cream page */
     --surface: #ffffff;         /* panels sit on the page like paper */
-    --hero-gradient: linear-gradient(120deg, #e9f4ee 0%, #f3f9f6 45%, #fdfefd 100%);
-    --brand-stripe: linear-gradient(90deg, #2e6b57 0%, #7fb59c 50%, #c8829f 100%);
+    --hero-gradient: linear-gradient(120deg, #edf3dd 0%, #f5f8ec 45%, #fdfdf9 100%);
+    --brand-stripe: linear-gradient(90deg, #4e6a2b 0%, #9fb86e 50%, #c8829f 100%);
 
     /* Map onto the AcademicPages theme variables */
     --global-bg-color: var(--bg);
-    --global-footer-bg-color: #e6efeb;
+    --global-footer-bg-color: #e9eedb;
     --global-border-color: var(--rule);
     --global-text-color: var(--ink);
     --global-text-color-light: var(--muted);
@@ -37,27 +37,27 @@
 }
 
 html[data-theme="dark"] {
-    --ink: #e4ebe8;
-    --muted: #9fb0aa;
-    --rule: #2a3733;
+    --ink: #e6e9dc;
+    --muted: #a8af99;
+    --rule: #2e3526;
 
-    --primary: #8fd1b5;
-    --primary-hover: #b7e5d1;
-    --primary-mid: #3d6b5b;
-    --primary-pastel: #1c2a26;
+    --primary: #b5d08a;
+    --primary-hover: #cfe2af;
+    --primary-mid: #55663a;
+    --primary-pastel: #252d1d;
 
     --accent: #eeb0cd;
     --accent-mid: #6e3d56;
     --accent-pastel: #2c1f26;
 
-    --bg: #121917;
-    --surface: #19221f;
-    --hero-gradient: linear-gradient(120deg, #1b2a25 0%, #1a2521 50%, #19221f 100%);
-    --brand-stripe: linear-gradient(90deg, #8fd1b5 0%, #5f9c86 50%, #d08aab 100%);
+    --bg: #151812;
+    --surface: #1c2118;
+    --hero-gradient: linear-gradient(120deg, #242c1b 0%, #1f251a 50%, #1c2118 100%);
+    --brand-stripe: linear-gradient(90deg, #b5d08a 0%, #7f9658 50%, #d08aab 100%);
 
     --global-base-color: var(--bg);
     --global-bg-color: var(--bg);
-    --global-footer-bg-color: #0f1513;
+    --global-footer-bg-color: #11140f;
     --global-border-color: var(--rule);
     --global-dark-border-color: var(--rule);
     --global-text-color: var(--ink);
@@ -263,7 +263,7 @@ a:hover {
     background: var(--surface);
     border: 1px solid var(--rule);
     border-radius: 10px;
-    box-shadow: 0 1px 2px rgba(31, 42, 46, 0.04);
+    box-shadow: 0 1px 2px rgba(38, 43, 34, 0.05);
 }
 
 /* ===== News ===== */
