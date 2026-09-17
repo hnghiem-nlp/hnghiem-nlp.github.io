@@ -1,31 +1,31 @@
 /* ==========================================================================
-   Matcha & Rose — professional pastel theme
+   Ceremonial Matcha & Rose — professional pastel theme
    Pastels are used for surfaces only; text uses the deep variants.
    ========================================================================== */
 
 /* ===== Palette ===== */
 :root {
     --ink: #262b22;             /* body text: warm charcoal */
-    --muted: #5d6655;           /* secondary text */
-    --rule: #e2e7d6;            /* hairline dividers */
+    --muted: #5a6557;           /* secondary text */
+    --rule: #e0ead6;            /* hairline dividers */
 
-    --primary: #4e6a2b;         /* deep matcha: links, rules */
-    --primary-hover: #3c5320;
-    --primary-mid: #c9d8a8;     /* whisked matcha */
-    --primary-pastel: #eef3df;  /* matcha latte foam */
+    --primary: #3a7324;         /* ceremonial matcha, deepened for text */
+    --primary-hover: #2c5a1b;
+    --primary-mid: #c2e09f;     /* whisked matcha */
+    --primary-pastel: #e9f5dc;  /* matcha foam */
 
     --accent: #9c4a73;          /* dusty raspberry: awards, dates, own name */
     --accent-mid: #e9c3d6;      /* mauve pink */
     --accent-pastel: #f9eaf1;   /* blush */
 
-    --bg: #f5f7ee;              /* soft matcha-cream page */
+    --bg: #f5faef;              /* fresh matcha-tinted page */
     --surface: #ffffff;         /* panels sit on the page like paper */
-    --hero-gradient: linear-gradient(120deg, #edf3dd 0%, #f5f8ec 45%, #fdfdf9 100%);
-    --brand-stripe: linear-gradient(90deg, #4e6a2b 0%, #9fb86e 50%, #c8829f 100%);
+    --hero-gradient: linear-gradient(120deg, #e5f3d4 0%, #f0f8e6 45%, #fcfefa 100%);
+    --brand-stripe: linear-gradient(90deg, #3a7324 0%, #8cc152 50%, #c8829f 100%);
 
     /* Map onto the AcademicPages theme variables */
     --global-bg-color: var(--bg);
-    --global-footer-bg-color: #e9eedb;
+    --global-footer-bg-color: #e6f1da;
     --global-border-color: var(--rule);
     --global-text-color: var(--ink);
     --global-text-color-light: var(--muted);
@@ -39,21 +39,21 @@
 html[data-theme="dark"] {
     --ink: #e6e9dc;
     --muted: #a8af99;
-    --rule: #2e3526;
+    --rule: #2b3a25;
 
-    --primary: #b5d08a;
-    --primary-hover: #cfe2af;
-    --primary-mid: #55663a;
-    --primary-pastel: #252d1d;
+    --primary: #a6d86e;
+    --primary-hover: #c3e89a;
+    --primary-mid: #4c7a2e;
+    --primary-pastel: #1f2c18;
 
     --accent: #eeb0cd;
     --accent-mid: #6e3d56;
     --accent-pastel: #2c1f26;
 
-    --bg: #151812;
-    --surface: #1c2118;
-    --hero-gradient: linear-gradient(120deg, #242c1b 0%, #1f251a 50%, #1c2118 100%);
-    --brand-stripe: linear-gradient(90deg, #b5d08a 0%, #7f9658 50%, #d08aab 100%);
+    --bg: #131812;
+    --surface: #1a2117;
+    --hero-gradient: linear-gradient(120deg, #213019 0%, #1c2618 50%, #1a2117 100%);
+    --brand-stripe: linear-gradient(90deg, #a6d86e 0%, #6fa446 50%, #d08aab 100%);
 
     --global-base-color: var(--bg);
     --global-bg-color: var(--bg);
