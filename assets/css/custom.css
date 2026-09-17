@@ -20,7 +20,7 @@
 
     --bg: #f5faef;              /* fresh matcha-tinted page */
     --surface: #ffffff;         /* panels sit on the page like paper */
-    --hero-fill: #edf4e5;         /* a shade deeper than the page */
+    --hero-fill: #e5eedb;         /* a shade deeper than the page */
     --brand-stripe: linear-gradient(90deg, #3a7324 0%, #8cc152 50%, #c8829f 100%);
 
     /* Map onto the AcademicPages theme variables */
@@ -52,7 +52,7 @@ html[data-theme="dark"] {
 
     --bg: #131812;
     --surface: #1a2117;
-    --hero-fill: #10150f;
+    --hero-fill: #0d120c;
     --brand-stripe: linear-gradient(90deg, #a6d86e 0%, #6fa446 50%, #d08aab 100%);
 
     --global-base-color: var(--bg);
