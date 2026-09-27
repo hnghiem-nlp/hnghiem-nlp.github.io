@@ -30,6 +30,10 @@ redirect_from:
 
 <ul class="news-compact">
   <li>
+    <span class="news-date">09/2026</span>
+    <span class="news-text">🎉 First-authored paper accepted to the <b>NeurIPS 2026</b> Evaluation &amp; Datasets Track! Preprint coming soon.</span>
+  </li>
+  <li>
     <span class="news-date">08/2026</span>
     <span class="news-text">💼 Completed my Applied Scientist internship at <b>Oracle</b> in New York City.</span>
   </li>
