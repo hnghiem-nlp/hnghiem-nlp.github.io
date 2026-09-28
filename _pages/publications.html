@@ -9,14 +9,17 @@ author_profile: false
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{%- assign pubs = site.publications | sort: "date" | reverse -%}
-{%- assign pubs_by_year = pubs | group_by_exp: "p", "p.date | date: '%Y'" -%}
+{%- assign sections = "conferences|Conference Papers,preprints|Preprints & Under Review,manuscripts|Journal Articles" | split: "," -%}
 
-{% for year in pubs_by_year %}
-  <h2 class="pub-year">{{ year.name }}</h2>
-  <div class="pub-list">
-    {%- for pub in year.items -%}
-      {% include pub_entry.html pub=pub %}
-    {%- endfor -%}
-  </div>
+{% for section in sections %}
+  {%- assign parts = section | split: "|" -%}
+  {%- assign group = site.publications | where: "category", parts[0] | sort: "date" | reverse -%}
+  {% if group.size > 0 %}
+    <h2>{{ parts[1] }}</h2>
+    <div class="pub-list">
+      {%- for pub in group -%}
+        {%- include pub_entry.html pub=pub -%}
+      {%- endfor -%}
+    </div>
+  {% endif %}
 {% endfor %}

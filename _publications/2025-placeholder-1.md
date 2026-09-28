@@ -6,7 +6,7 @@ category: conferences
 venue: "EMNLP 2025"
 year: 2025
 date: 2025-09-01
-order: 3
+order: 4
 paperurl: "https://arxiv.org/abs/2509.16400"
 code: "https://github.com/hnghiem-nlp/ses_emnlp"
 image: "/assets/img/papers/richdad.png"
