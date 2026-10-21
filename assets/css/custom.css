@@ -18,14 +18,14 @@
     --accent-mid: #e9c3d6;      /* mauve pink */
     --accent-pastel: #f9eaf1;   /* blush */
 
-    --bg: #f5faef;              /* fresh matcha-tinted page */
+    --bg: #fafcf6;              /* barely-there matcha tint */
     --surface: #ffffff;         /* panels sit on the page like paper */
-    --hero-fill: #f1f7ea;         /* a shade deeper than the page */
+    --hero-fill: #f2f8eb;         /* a shade deeper than the page */
     --brand-stripe: linear-gradient(90deg, #3a7324 0%, #8cc152 50%, #c8829f 100%);
 
     /* Map onto the AcademicPages theme variables */
     --global-bg-color: var(--bg);
-    --global-footer-bg-color: #e6f1da;
+    --global-footer-bg-color: #eef6e3;
     --global-border-color: var(--rule);
     --global-text-color: var(--ink);
     --global-text-color-light: var(--muted);
