@@ -57,18 +57,6 @@ redirect_from:
     <span class="news-date">04/2026</span>
     <span class="news-text">🎉 2 papers accepted to <a href="https://2026.aclweb.org/"><b>ACL 2026</b></a>!</span>
   </li>
-  <li>
-    <span class="news-date">01/2026</span>
-    <span class="news-text">Exciting to be a <a href="https://www.matsprogram.org/">MATS 9.0</a> scholar under the mentorship of Dr. <a href="https://www.noamkolt.com/">Noam Kolt</a>!</span>
-  </li>
-  <li>
-    <span class="news-date">01/2026</span>
-    <span class="news-text"><a href="https://2025.aaclnet.org/program/outstanding_reviewers/">Outstanding Reviewer Award</a> at <b>IJCNLP-AACL 2025</b>.</span>
-  </li>
-  <li>
-    <span class="news-date">12/2025</span>
-    <span class="news-text">Attending NeurIPS in ☀️San Diego☀️ and serving as Junior Chair for <a href="https://ahli.cc/ml4h/"><em>ML4H</em></a>.</span>
-  </li>
 
 </ul>
 
