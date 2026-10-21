@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV (PDF)](/files/Academic_CV_092026.pdf){: .btn .btn--primary}
+[Download CV (PDF)](/files/Academic_CV_102026.pdf){: .btn .btn--primary}
 
 Education
 ======
@@ -33,7 +33,11 @@ Research Experience
   * Causal Fairness: Develop counterfactual fairness methods with respect to protected attributes, enhancing transparency in AI decision-making.
   * Explainable AI: Leverage causal inference and in-context learning to reduce stereotypes in generative explanations from large language models.
 
-* **MATS 9.0 & 9.1 Fellow**, Berkeley, 2026
+* **CBAI Research Fellow**, Cambridge Boston Alignment Initiative, Boston, Winter 2026
+  * Mentor: Professor Dylan Hadfield-Menell (MIT).
+  * AI Technical Governance: Developing a Model Spec Sheet as a blueprint to map components of the training pipeline to downstream behaviors.
+
+* **MATS 9.0 & 9.1 Fellow**, Berkeley, Spring 2026
   * Mentor: Dr. Noam Kolt.
   * AI + Legal Alignment: Develop audit methods to evaluate, predict, and orient LLM and AI tools to legal requirements.
 
@@ -102,12 +106,12 @@ Service
 * Junior Chair, Bias and Fairness Area, ML4H Symposium, 2025
 
 **Reviewing**
-* ACL Rolling Review (ARR) – ACL, EMNLP, AACL, COLM, NeurIPS (2025)
+* Reviewer – NeurIPS, ICLR
+* ACL Rolling Review (ARR) – ACL, EMNLP, AACL
 * Trustworthy NLP Workshop
 * ACM Transactions on Intelligent Systems and Technology
 * Journal of Medical Internet Research
 * Machine Learning 4 Health (ML4H)
-* ACL Rolling Review (ARR) – ACL, NAACL, EMNLP cycles (2024)
 * Expert Systems with Applications
 
 Invited Talks

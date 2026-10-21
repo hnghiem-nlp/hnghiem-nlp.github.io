@@ -30,6 +30,10 @@ redirect_from:
 
 <ul class="news-compact">
   <li>
+    <span class="news-date">10/2026</span>
+    <span class="news-text">🧭 Joined the <a href="https://www.cbai.ai/">Cambridge Boston Alignment Initiative</a> as a Research Fellow, working with Professor <a href="https://people.csail.mit.edu/dhm/">Dylan Hadfield-Menell</a> at MIT.</span>
+  </li>
+  <li>
     <span class="news-date">09/2026</span>
     <span class="news-text">🎉 First-authored paper accepted to the <b>NeurIPS 2026</b> Evaluation &amp; Datasets Track! Preprint coming soon.</span>
   </li>
